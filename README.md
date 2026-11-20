@@ -35,7 +35,11 @@ Pressing a pushbutton makes the LED blink.
 
 ### Demo
 
-![Project 01 breadboard setup](./assets/images/Project%2001.png)
+<img src="./assets/images/Project%2001.png" alt="Project 01 breadboard setup" width="640" height="480" />
+
+<video controls width="640" height="480" src="./assets/videos/project-01-demo.mp4">
+  Your browser does not support the video tag.
+</video>
 
 - Video: [Project 01 demo](./assets/videos/project-01-demo.mp4)
 
@@ -57,6 +61,10 @@ Use a pushbutton to switch between two light states:
 
 ### Demo
 
-![Project 02 breadboard setup](./assets/images/Project%2002.png)
+<img src="./assets/images/Project%2002.png" alt="Project 02 breadboard setup" width="640" height="480" />
+
+<video controls width="640" height="480" src="./assets/videos/project-02-demo.mp4">
+  Your browser does not support the video tag.
+</video>
 
 - Video: [Project 02 demo](./assets/videos/project-02-demo.mp4)
