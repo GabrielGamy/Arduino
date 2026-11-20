@@ -2,11 +2,17 @@
 
 This repository tracks my progress while learning Arduino with the Projects Book.
 
-## Structure
+## Table of Contents
 
-- `Projects Book/01/` - Project files and notes for chapter/project 01.
-- `assets/videos/` - Demo videos for projects.
-- `assets/images/` - Photos and wiring/setup images.
+- [Goals](#goals)
+- [Project 01](#project-01)
+  - [Goal](#goal)
+  - [What I Practiced](#what-i-practiced)
+  - [Demo](#demo)
+- [Project 02](#project-02)
+  - [Goal](#goal-1)
+  - [What I Practiced](#what-i-practiced-1)
+  - [Demo](#demo-1)
 
 ## Goals
 
@@ -14,13 +20,43 @@ This repository tracks my progress while learning Arduino with the Projects Book
 - Keep code and notes versioned with Git.
 - Build a clear history of learning progress over time.
 
-## Suggested Workflow
+## Project 01
 
-1. Create or update project files.
-2. Commit changes with a short message describing what was learned.
-3. Repeat for each project/chapter.
+### Goal
 
-## Next Steps
+Pressing a pushbutton makes the LED blink.
 
-- Add source files or sketches for each project.
-- Add notes and wiring diagrams as you go.
+### What I Practiced
+
+- Identifying basic components (Arduino, breadboard, LED, resistor, pushbutton, jumper wires)
+- Building a simple input/output circuit
+- Reading a button state from a digital pin
+- Controlling an LED with basic sketch logic
+
+### Demo
+
+![Project 01 breadboard setup](./assets/images/Project%2001.png)
+
+- Video: [Project 01 demo](./assets/videos/project-01-demo.mp4)
+
+## Project 02
+
+### Goal
+
+Use a pushbutton to switch between two light states:
+
+- Button not pressed: green LED on, red LEDs off
+- Button pressed: green LED off, red LEDs blink alternately
+
+### What I Practiced
+
+- Reading a digital input from a pushbutton
+- Driving multiple digital outputs
+- Using conditional logic (if/else) for mode switching
+- Creating a simple blink pattern with delay()
+
+### Demo
+
+![Project 02 breadboard setup](./assets/images/Project%2002.png)
+
+- Video: [Project 02 demo](./assets/videos/project-02-demo.mp4)

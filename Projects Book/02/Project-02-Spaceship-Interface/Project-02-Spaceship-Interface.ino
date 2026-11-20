@@ -18,18 +18,21 @@ void loop() {
   int switchState = digitalRead(switchPin);
 
   if (switchState == LOW) {
-    digitalWrite(ledGreen, LOW);
-
-    digitalWrite(ledRedA, HIGH);
-    digitalWrite(ledRedB, LOW);
-    delay(250);
-
-    digitalWrite(ledRedA, LOW);
-    digitalWrite(ledRedB, HIGH);
-    delay(250);
-  } else {
+    // The button is not pressed, blink the green LED and turn off the red LEDs.
     digitalWrite(ledGreen, HIGH);
     digitalWrite(ledRedA, LOW);
     digitalWrite(ledRedB, LOW);
+  } else {
+    // The button is pressed, turn off the green LED and blink the red LEDs alternately.
+    digitalWrite(ledGreen, LOW);
+    digitalWrite(ledRedA, LOW);
+    digitalWrite(ledRedB, HIGH);
+
+    delay(250);
+
+    digitalWrite(ledRedA, HIGH);
+    digitalWrite(ledRedB, LOW);
+    
+    delay(250);
   }
 }
