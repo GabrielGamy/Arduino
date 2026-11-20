@@ -21,6 +21,10 @@ Pressing a pushbutton makes the LED blink.
 
 - [Watch the demo](../../assets/videos/project-01-demo.mp4)
 
+## Sketch
+
+- `Project-01-Button-and-LED/Project-01-Button-and-LED.ino`
+
 ## Notes
 
 - This project is a fundamentals warm-up before later Starter Kit projects.
