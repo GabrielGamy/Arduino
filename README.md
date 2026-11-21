@@ -13,6 +13,10 @@ This repository tracks my progress while learning Arduino with the Projects Book
   - [Goal](#goal-1)
   - [What I Practiced](#what-i-practiced-1)
   - [Demo](#demo-1)
+- [Project 03](#project-03)
+  - [Goal](#goal-2)
+  - [What I Practiced](#what-i-practiced-2)
+  - [Demo](#demo-2)
 
 ## Goals
 
@@ -68,3 +72,26 @@ Use a pushbutton to switch between two light states:
 </video>
 
 - Video: [Project 02 demo](./assets/videos/project-02-demo.mp4)
+
+## Project 03
+
+### Goal
+
+Measure temperature with the TMP36 sensor and use LEDs as a temperature level indicator.
+
+### What I Practiced
+
+- Reading analog values from a temperature sensor (`A0`)
+- Converting ADC readings to voltage and then to temperature in C
+- Using threshold-based `if/else if/else` logic
+- Controlling multiple LEDs to represent temperature ranges
+
+### Demo
+
+<img src="./assets/images/Project%2003.png" alt="Project 03 breadboard setup" width="640" height="480" />
+
+<video controls width="640" height="480" src="./assets/videos/project-03-demo.mp4">
+  Your browser does not support the video tag.
+</video>
+
+- Video: [Project 03 demo](./assets/videos/project-03-demo.mp4)
